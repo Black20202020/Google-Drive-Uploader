@@ -9,30 +9,30 @@ MEGA_EMAIL = "bearyan8@yandex.com"
 MEGA_PASSWORD = "bearyan8@yandex.com"
 
 
-START = " Hi {}  \nI am Drive Uploader Bot . Please Authorise To use me .By using /auth \n\n For more info /help \n\n Third-Party Website \n Support Added /update \n\n For Bot Updates  \n <a href ='https://t.me/aryan_bots'>Join Channel</a>\nPlease Report Bugs  @aryanvikash"
+START = " Hi {}  \nأنا بوت لرفع الملفات . الرجاء التصريح لإستخدامي .بإستخدام /auth \n\n لمزيد من المعلومات /help \n\n Third-Party Website \n Support Added /update \n\n For Bot Updates  \n <a href ='https://t.me/aryan_bots'>Join Channel</a>\nPlease Report Bugs  @aryanvikash"
 
 HELP = """   <b>AUTHORISE BOT</b> 
-       Use  /auth Command Generate
-       Your Google Drive Token And 
-       Send It To Bot  
-<b> You Wanna Change Your Login 
-        Account ?</b> \n
-        You Can Use /revoke 
-        command            
-<b>What I Can Do With This Bot? </b>
-            You Can Upload Any Internet
-            Files On Your google
-            Drive Account.
-<b> Links Supported By Bot</b>
-            * Direct Links 
-            * Openload links [Max Speed 
+       إستخدم  /auth أمر لإنشاء
+       رمز جوجل درايف 
+       وأرسله لهذا البوت  
+<b> تريد تغيير 
+        حسابك ?</b> \n
+        إستخدم أمر /revoke 
+        للتغير            
+<b>ماذا يمكنني أن أفعل مع هذا البوت </b>
+             يمكنك رفع أي
+            ملفات من الإنترنت
+            إلى حسابك على جوجل درايف.
+<b> رابط الدعم من البوت</b>
+            * رابط مباشر 
+            * Openload روابط [أقصى سرعة 
               500 KBps :(   ]
-            * Dropbox links 
-            *  Mega links
+            * Dropbox روابط 
+            *  Mega روابط
             
-            + More On Its way:)
+            + المزيد في الطريق:)
                 
-Bug Report @aryanvikash
+للإبلاغ عن الأخطاء @aryanvikash
         """
 DP_DOWNLOAD = "Dropbox Link !! Downloading Started ..."
 OL_DOWNLOAD = "Openload Link !! Downloading Started ... \n Openload Links Are Extremely Slow"
@@ -58,14 +58,14 @@ MEGA = True
 
 
 UPDATE = """ <b> Update  on  27.07.2019</b>
-            * MEGA LINK added
+            * MEGA إضافة روابط
             * Error Handling Improved
 
-<b> Links Supported By Bot</b>
-            * Direct Links 
-            * Openload links [Max Speed 
+<b> الروابط المدعومة للبوت</b>
+            * الروابط المباشرة 
+            * Openload روابط [أقصى سرعة 
               500 KBps :(   ]
-            * Dropbox links 
-            *  Mega links (only files)
+            * Dropbox روابط 
+            *  Mega روابط (الملفات فقط!)
             
-            + More are in way:) """
+            + المزيد في الطريق:) """
