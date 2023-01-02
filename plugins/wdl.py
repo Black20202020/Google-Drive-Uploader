@@ -3,17 +3,17 @@ import subprocess
 
 def wget_dl(url):
         try:
-            print("Downloading Started")
+            print("بدء التنزيل")
             # i was facing some problem in filename That's Why i did this ,
             #  i will fix it later :(
 
             filename = os.path.basename(url)
             output = subprocess.check_output("wget '--output-document' '{}' '{}' ".format(filename , url), stderr=subprocess.STDOUT, shell=True)
             
-            print("Downloading Complete",filename)
+            print("إكتمل التنزيل",filename)
             return filename
         except Exception as e:
-            print("DOWNLAOD ERROR :",e)
+            print("خطأ في التنزيل :",e)
            
             return "error",filename
         
