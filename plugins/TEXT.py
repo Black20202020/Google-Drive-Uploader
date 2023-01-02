@@ -9,7 +9,7 @@ MEGA_EMAIL = "bearyan8@yandex.com"
 MEGA_PASSWORD = "bearyan8@yandex.com"
 
 
-START = " Hi {}  \nأنا بوت لرفع الملفات . الرجاء التصريح لإستخدامي .بإستخدام /auth \n\n لمزيد من المعلومات /help \n\n Third-Party Website \n Support Added /update \n\n For Bot Updates  \n <a href ='https://t.me/aryan_bots'>Join Channel</a>\nPlease Report Bugs  @aryanvikash"
+START = " Hi {}  \nأنا بوت لرفع الملفات . الرجاء التصريح لإستخدامي .بإستخدام /auth \n\n لمزيد من المعلومات /help \n\n موقع الطرف الثالث \n تمت إضافة الدعم /update \n\n For Bot Updates  \n <a href ='https://t.me/aryan_bots'>Join Channel</a>\nPlease Report Bugs  @aryanvikash"
 
 HELP = """   <b>AUTHORISE BOT</b> 
        إستخدم  /auth أمر لإنشاء
@@ -25,8 +25,7 @@ HELP = """   <b>AUTHORISE BOT</b>
             إلى حسابك على جوجل درايف.
 <b> رابط الدعم من البوت</b>
             * رابط مباشر 
-            * Openload روابط [أقصى سرعة 
-              500 KBps :(   ]
+            * أقصى سرعة 500 كيلوابايت Openload روابط
             * Dropbox روابط 
             *  Mega روابط
             
@@ -34,24 +33,24 @@ HELP = """   <b>AUTHORISE BOT</b>
                 
 للإبلاغ عن الأخطاء @aryanvikash
         """
-DP_DOWNLOAD = "Dropbox Link !! Downloading Started ..."
-OL_DOWNLOAD = "Openload Link !! Downloading Started ... \n Openload Links Are Extremely Slow"
-PROCESSING = "Processing Your Request ...!!"
+DP_DOWNLOAD = "Dropbox روابط !! بدء التحميل ..."
+OL_DOWNLOAD = "Openload روابط !! بدء التحميل ... \n روابط Openload بطيئة للغاية"
+PROCESSING = "جاري معالجة طلبك ...!!"
 DOWN_TWO = True
-DOWNLOAD = "Downloading Started ..."
-DOWN_MEGA = "Downloading Started... \n  Mega Links are \n Extremely Slow :("
-DOWN_COMPLETE = "Downloading complete !!"
-NOT_AUTH = "You Are Not Authorised To Using this Bot \n\n Please Authorise Me Using /auth  \n\n @aryanvikash"
-REVOKE_FAIL = "You Are Already UnAuthorised \n. Please Use /auth To Authorise \n\n report At @aryanvikash "
-AUTH_SUCC = "Authorised Successfully  !! \n\n Now Send me A direct Link :)"
-ALREADY_AUTH = "You Are Already Authorised ! \n\n Wanna Change Drive Account? \n\n Use /revoke \n\n report At @aryanvikash "
-AUTH_URL = '<a href ="{}">Vist This Url</a> \n Generate And Copy Your Google Drive Token And Send It To Me'
-UPLOADING = "Download Complete !! \n Uploading Your file"
-REVOKE_TOK = " Your Token is Revoked Successfully !! \n\n Use /auth To Re-Authorise Your Drive Acc. "
+DOWNLOAD = "بدء التنزيل ..."
+DOWN_MEGA = "بدء التنزيل... \n  روابط MEGA \n بطيئة للغاية :("
+DOWN_COMPLETE = "إكتمل التنزيل !!"
+NOT_AUTH = "أنت غير مصرح لك باستخدام هذا البوت \n\n الرجاء السماح لي باستخدام /auth  \n\n @aryanvikash"
+REVOKE_FAIL = "أنت بالفعل غير مصرح به \n. الرجاء إستخدام /auth للإذن\n\n تقرير لـ @aryanvikash "
+AUTH_SUCC = "تم التفويض بنجاح  !! \n\n الآن أرسل لي رابط مباشر :)"
+ALREADY_AUTH = "أنت مفوض بالفعل ! \n\n هل تريد تغيير حساب درايف؟ \n\n إستخدم /revoke \n\n تقرير لـ @aryanvikash "
+AUTH_URL = '<a href ="{}">قم بزيارة عنوان الرابط هذا</a> \n قم بإنشاء ونسخ Google Drive Token الخاص بك وإرساله إلي'
+UPLOADING = "إكتمل التنزيل !! \n جاري رفع ملفك"
+REVOKE_TOK = " تم إبطال رمزك بنجاح !! \n\n إستخدم /auth لإعادة تفويض حساب درايف الخاص بك. "
 # DOWN_PATH = "Downloads\\" #windows path
 DOWN_PATH = "Downloads/"  # Linux path
-DOWNLOAD_URL = "Your File Uploaded Successfully \n\n <b>Filename</b> : {} \n\n <b> Size</b> : {} MB \n\n <b>Download</b> {}"
-AUTH_ERROR = "AUTH Error !! Please  Send Me a  valid Token or Re - Authorise Me  \n\n report At @aryanvikash"
+DOWNLOAD_URL = "تم رفع ملفك بنجاح \n\n <b>إسم الملف</b> : {} \n\n <b> الحجم</b> : {} MB \n\n <b>تنزيل</b> {}"
+AUTH_ERROR = "خطأ في المصادقة !! الرجاء إرسال رمز صالح لي أو إعادة تفويض لي  \n\n تقرير لـ @aryanvikash"
 OPENLOAD = True
 DROPBOX = True
 MEGA = True
@@ -59,12 +58,11 @@ MEGA = True
 
 UPDATE = """ <b> Update  on  27.07.2019</b>
             * MEGA إضافة روابط
-            * Error Handling Improved
+            * تحسين معالجة الأخطاء
 
 <b> الروابط المدعومة للبوت</b>
             * الروابط المباشرة 
-            * Openload روابط [أقصى سرعة 
-              500 KBps :(   ]
+            * أقصى سرعة 500 كيلوابايت Openload روابط
             * Dropbox روابط 
             *  Mega روابط (الملفات فقط!)
             
